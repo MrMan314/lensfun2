@@ -13,7 +13,7 @@ license=('LGPL3')
 depends=('glibc' 'glib2')
 makedepends=('cmake' 'git'  'libpng' 'python-setuptools')
 optdepends=('python: for lensfun-update-data and lensfun-add-adapter')
-provides=("$_pkgname=0.3.2")
+provides=("$_pkgname=0.3.2" "$_pkgname-git")
 source=("git+https://github.com/lensfun/$_pkgname.git")
 b2sums=('SKIP')
 
